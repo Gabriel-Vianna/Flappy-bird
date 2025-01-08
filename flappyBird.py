@@ -28,7 +28,6 @@ async def main():
     obstacle_movement = -4
     obstacle_position = 500
 
-
     # Display bird on the screen
     def display_bird(x, y):
         screen.blit(BIRD_IMAGE, (x, y))
